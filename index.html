@@ -1,135 +1,771 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Tisha Chhatbar</title>
+    <meta name="description" content="Tisha Chhatbar's portfolio — software, AI, and data-driven solutions.">
+    <title>Tisha Chhatbar | Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <!-- Animated Background -->
-    <div class="background">
-
+    <div class="background" aria-hidden="true">
         <div class="glow glow1"></div>
         <div class="glow glow2"></div>
         <div class="glow glow3"></div>
-
     </div>
 
     <!-- Navigation -->
-    <nav>
+    <nav aria-label="Main navigation">
 
-        <div class="logo">
+        <a class="logo" href="#home">
             TISHA.
-        </div>
+        </a>
 
         <ul>
-
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
-
         </ul>
 
-        <button id="themeToggle">
+        <button id="themeToggle" type="button" aria-label="Toggle color theme">
             🌙
         </button>
 
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
+    <main>
 
-        <div class="hero-text">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
 
-            <p class="eyebrow">
-                MANAGEMENT INFORMATION SYSTEMS STUDENT
-            </p>
+            <div class="hero-text">
 
-            <h1>
+                <p class="eyebrow">
+                    MANAGEMENT INFORMATION SYSTEMS STUDENT
+                </p>
 
-                Building software,<br>
-                AI, and data-driven<br>
-                experiences.
+                <h1>
+                    Building <span class="gradient-text">AI</span>,
+                    software, and<br>
+                    data-driven solutions<br>
+                    that create impact.
+                </h1>
 
-            </h1>
+                <p class="description">
+                    Hi, I’m <strong>Tisha Chhatbar</strong>. I enjoy creating
+                    thoughtful technology that solves real-world problems through
+                    software, artificial intelligence, and data.
+                </p>
 
-            <p class="description">
+                <div class="buttons">
 
-                I'm Tisha Chhatbar. I love creating technology that solves
-                real-world problems through software, artificial intelligence,
-                and data.
+                    <a href="#projects" class="primary">
+                        View Projects
+                    </a>
 
-            </p>
+                    <a href="resume.pdf" class="secondary" target="_blank">
+                        Download Resume
+                    </a>
 
-            <div class="buttons">
+                </div>
 
-                <a href="#projects" class="primary">
-                    View Projects
-                </a>
+            </div>
 
-                <a href="resume.pdf" class="secondary" target="_blank">
-                    Resume
+            <div class="hero-image">
+
+                <div class="image-circle">
+                    Your Photo
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="page-section">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    ABOUT
+                </p>
+
+                <h2>
+                    Who I Am
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-left">
+
+                    <div class="about-photo">
+                        Photo Placeholder
+                    </div>
+
+                </div>
+
+                <div class="about-right">
+
+                    <h3>
+                        Curious by nature. Intentional by design.
+                    </h3>
+
+                    <p>
+                        I’m a Management Information Systems student at the
+                        University of Houston with interests in software
+                        engineering, artificial intelligence, and data analytics.
+                        I enjoy turning ideas into useful, well-designed experiences.
+                    </p>
+
+                    <p>
+                        I’m continuing to grow through hands-on projects,
+                        research, and new technical challenges—always looking for
+                        the connection between people, data, and technology.
+                    </p>
+
+                    <div class="about-info">
+
+                        <div class="info-card">
+
+                            <h4>
+                                🎓 Education
+                            </h4>
+
+                            <p>
+                                B.B.A. in Management Information Systems
+                                <br>
+                                University of Houston
+                            </p>
+
+                        </div>
+
+                        <div class="info-card">
+
+                            <h4>
+                                💡 Interests
+                            </h4>
+
+                            <p>
+                                AI, software engineering, data analytics,
+                                and cloud technology.
+                            </p>
+
+                        </div>
+
+                        <div class="info-card">
+
+                            <h4>
+                                📍 Based In
+                            </h4>
+
+                            <p>
+                                Houston, Texas
+                            </p>
+
+                        </div>
+
+                        <div class="info-card">
+
+                            <h4>
+                                🎯 Exploring
+                            </h4>
+
+                            <p>
+                                Internships where I can build, learn,
+                                and contribute to real products.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="page-section">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    SKILLS
+                </p>
+
+                <h2>
+                    Tools I’m Building With
+                </h2>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-category">
+
+                    <p class="skill-icon">
+                        ⌘
+                    </p>
+
+                    <h3>
+                        Programming
+                    </h3>
+
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>C#</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                        <li>HTML &amp; CSS</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill-category">
+
+                    <p class="skill-icon">
+                        ◈
+                    </p>
+
+                    <h3>
+                        Data &amp; Analytics
+                    </h3>
+
+                    <ul class="skill-list">
+                        <li>Tableau</li>
+                        <li>Power BI</li>
+                        <li>Data Visualization</li>
+                        <li>Data Analysis</li>
+                        <li>Database Design</li>
+                    </ul>
+
+                </div>
+
+                <div class="skill-category">
+
+                    <p class="skill-icon">
+                        ☁
+                    </p>
+
+                    <h3>
+                        Tools &amp; Platforms
+                    </h3>
+
+                    <ul class="skill-list">
+                        <li>Git &amp; GitHub</li>
+                        <li>Azure</li>
+                        <li>AWS</li>
+                        <li>VS Code</li>
+                        <li>Microsoft 365</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="page-section">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    EXPERIENCE
+                </p>
+
+                <h2>
+                    Learning Through Doing
+                </h2>
+
+            </div>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+
+                    <p class="timeline-date">
+                        PRESENT
+                    </p>
+
+                    <div class="timeline-card">
+
+                        <p class="timeline-label">
+                            EDUCATION
+                        </p>
+
+                        <h3>
+                            Management Information Systems Student
+                        </h3>
+
+                        <p class="timeline-company">
+                            University of Houston
+                        </p>
+
+                        <p>
+                            Building a foundation in business systems,
+                            technology, data, and problem-solving.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <p class="timeline-date">
+                        ADD DATE
+                    </p>
+
+                    <div class="timeline-card">
+
+                        <p class="timeline-label">
+                            RESEARCH / LEADERSHIP
+                        </p>
+
+                        <h3>
+                            Add Your Research or Leadership Role
+                        </h3>
+
+                        <p class="timeline-company">
+                            Organization or Program
+                        </p>
+
+                        <p>
+                            Use this space for the impact you made,
+                            the skills you practiced, and the result.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="timeline-item">
+
+                    <p class="timeline-date">
+                        ADD DATE
+                    </p>
+
+                    <div class="timeline-card">
+
+                        <p class="timeline-label">
+                            WORK EXPERIENCE
+                        </p>
+
+                        <h3>
+                            Add Your Work Experience
+                        </h3>
+
+                        <p class="timeline-company">
+                            Company or Organization
+                        </p>
+
+                        <p>
+                            Describe the work in terms of the people you
+                            helped, the problem you solved, or the outcome.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="page-section">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    FEATURED PROJECTS
+                </p>
+
+                <h2>
+                    Things I’ve Built
+                </h2>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <div class="project-visual project-visual-ai">
+                        01
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            AI / WEB APP
+                        </p>
+
+                        <h3>
+                            AI Resume Analyzer
+                        </h3>
+
+                        <p>
+                            A future project placeholder for an AI-powered tool
+                            that helps users improve their resumes.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>Python</span>
+                            <span>OpenAI API</span>
+                            <span>HTML</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#">GitHub ↗</a>
+                            <a href="#">Live Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-visual project-visual-data">
+                        02
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            DATA / ANALYTICS
+                        </p>
+
+                        <h3>
+                            Data Dashboard
+                        </h3>
+
+                        <p>
+                            A future project placeholder for an interactive
+                            dashboard that turns complex data into clear insights.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>SQL</span>
+                            <span>Tableau</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#">GitHub ↗</a>
+                            <a href="#">Live Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-visual project-visual-web">
+                        03
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            WEB DEVELOPMENT
+                        </p>
+
+                        <h3>
+                            Personal Portfolio
+                        </h3>
+
+                        <p>
+                            This website: a responsive home for projects,
+                            experience, skills, and the work I’m proud to share.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#">GitHub ↗</a>
+                            <a href="#home">View Site ↗</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="project-card">
+
+                    <div class="project-visual project-visual-ml">
+                        04
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            MACHINE LEARNING
+                        </p>
+
+                        <h3>
+                            Machine Learning Project
+                        </h3>
+
+                        <p>
+                            A space reserved for a future project exploring
+                            predictive models, data, and responsible AI.
+                        </p>
+
+                        <div class="tech-list">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>scikit-learn</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="#">GitHub ↗</a>
+                            <a href="#">Live Demo ↗</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="page-section">
+
+            <div class="section-header">
+
+                <p class="section-tag">
+                    CERTIFICATIONS
+                </p>
+
+                <h2>
+                    Always Learning
+                </h2>
+
+            </div>
+
+            <div class="certifications-grid">
+
+                <div class="certification-card">
+
+                    <span class="certification-mark">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Certification Name
+                    </h3>
+
+                    <p>
+                        Issuing organization · Year
+                    </p>
+
+                    <a href="#">
+                        View Credential ↗
+                    </a>
+
+                </div>
+
+                <div class="certification-card">
+
+                    <span class="certification-mark">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Certification Name
+                    </h3>
+
+                    <p>
+                        Issuing organization · Year
+                    </p>
+
+                    <a href="#">
+                        View Credential ↗
+                    </a>
+
+                </div>
+
+                <div class="certification-card">
+
+                    <span class="certification-mark">
+                        ✦
+                    </span>
+
+                    <h3>
+                        Certification Name
+                    </h3>
+
+                    <p>
+                        Issuing organization · Year
+                    </p>
+
+                    <a href="#">
+                        View Credential ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="page-section resume-section">
+
+            <div class="resume-card">
+
+                <div>
+
+                    <p class="section-tag">
+                        RESUME
+                    </p>
+
+                    <h2>
+                        Want the full picture?
+                    </h2>
+
+                    <p>
+                        Download my resume for a closer look at my education,
+                        experience, and skills.
+                    </p>
+
+                </div>
+
+                <a href="resume.pdf" class="primary" target="_blank">
+                    Download Resume ↓
                 </a>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="hero-image">
+        <!-- Contact Section -->
+        <section id="contact" class="page-section contact-section">
 
-            <div class="image-circle">
+            <div class="section-header">
 
-                <!-- Replace with your own photo later -->
-                Your Photo
+                <p class="section-tag">
+                    CONTACT
+                </p>
+
+                <h2>
+                    Let’s Build Something Meaningful.
+                </h2>
+
+                <p class="contact-intro">
+                    I’m always open to a thoughtful conversation, a new
+                    opportunity, or a project worth exploring.
+                </p>
 
             </div>
 
-        </div>
+            <div class="contact-grid">
 
-    </section>
+                <div class="contact-links">
 
-    <!-- About Section -->
-    <section id="about" class="page-section">
-    </section>
+                    <a class="contact-link" href="mailto:your.email@example.com">
+                        <span>Email</span>
+                        <span>your.email@example.com ↗</span>
+                    </a>
 
-    <!-- Projects Section -->
-    <section id="projects" class="page-section">
-    </section>
+                    <a class="contact-link" href="#">
+                        <span>LinkedIn</span>
+                        <span>Connect with me ↗</span>
+                    </a>
 
-    <!-- Experience Section -->
-    <section id="experience" class="page-section">
-    </section>
+                    <a class="contact-link" href="#">
+                        <span>GitHub</span>
+                        <span>See my code ↗</span>
+                    </a>
 
-    <!-- Contact Section -->
-    <section id="contact" class="page-section">
-    </section>
+                </div>
+
+                <form class="contact-form">
+
+                    <label for="name">
+                        Name
+                    </label>
+
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        placeholder="Your name"
+                    >
+
+                    <label for="email">
+                        Email
+                    </label>
+
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="you@example.com"
+                    >
+
+                    <label for="message">
+                        Message
+                    </label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tell me what’s on your mind."
+                    ></textarea>
+
+                    <button class="primary" type="submit">
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer>
 
         <p>
-            © 2026 Tisha Chhatbar. All rights reserved.
+            © 2026 Tisha Chhatbar. Built with curiosity.
         </p>
+
+        <a href="#home">
+            Back to top ↑
+        </a>
 
     </footer>
 
     <script src="script.js"></script>
 
 </body>
-
 </html>
