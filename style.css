@@ -370,3 +370,61 @@ margin-top:40px;
 }
 
 }
+/* -----------------------------
+   SECTION FOUNDATION
+------------------------------ */
+
+.page-section{
+
+    width:92%;
+    max-width:1400px;
+
+    margin:180px auto;
+
+}
+
+.section-header{
+
+    margin-bottom:70px;
+
+}
+
+.section-tag{
+
+    color:#8B5CF6;
+
+    letter-spacing:3px;
+
+    font-size:.85rem;
+
+    margin-bottom:15px;
+
+    font-weight:600;
+
+}
+
+.section-header h2{
+
+    font-size:3rem;
+
+    font-weight:700;
+
+}
+
+footer{
+
+    width:92%;
+    max-width:1400px;
+
+    margin:150px auto 50px;
+
+    padding-top:40px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    color:#9CA3AF;
+
+}
+
